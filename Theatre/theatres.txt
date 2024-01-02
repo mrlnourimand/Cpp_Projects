@@ -1,0 +1,34 @@
+Helsinki;KOM-teatteri;Rikkaruoho;Vilma Melasniemi;10
+Tampere;Tampereen Teatteri;Piaf;Pia Piltz;34
+Helsinki;KOM-teatteri;Rikkaruoho;Juho Milonoff;4
+Pori;Porin Teatteri;Evita;Heidi Rantakeisu;7
+Helsinki;Suomen Komediateatteri;Viimeinen illuusio;Kiti Kokkonen;17
+Helsinki;KOM-teatteri;Rikkaruoho;Niko Saarela;none
+Tampere;Tampereen Teatteri;Piaf;Annuska Hannula;7
+Helsinki;KOM-teatteri;Nukkekoti/A doll's house;Niko Saarela;40
+Tampere;Tampereen Teatteri;Anastasia;Sinikka Sokka;4
+Helsinki;KOM-teatteri;The Pimpsons;Lotta Kaihua;40
+Pori;Porin Teatteri;Idan pikajunan arvoitus/Murder on the Orient Express;Maria Palmu;none
+Helsinki;KOM-teatteri;The Pimpsons;Ria Kataja;none
+Helsinki;Suomen Komediateatteri;Viimeinen illuusio;Janne Kataja;28
+Tampere;Tampereen Teatteri;Klaani;Matti Hakulinen;6
+Helsinki;Suomen Komediateatteri;Viimeinen illuusio;Joni Pakanen;23
+Pori;Porin Teatteri;Evita;Maria Pere;none
+Helsinki;Suomen Komediateatteri;Viimeinen illuusio;Katja Lappi;22
+Helsinki;Suomen Komediateatteri;Ilta pilalla;Ria Kataja;34
+Tampere;Tampereen Teatteri;Klaani;Elina Rintala;7
+Helsinki;Suomen Komediateatteri;Ilta pilalla;Kiti Kokkonen;5
+Tampere;Tampereen Tyovaen Teatteri;Saituri/Miser;Samuli Muje;34
+Tampere;Tampereen Teatteri;Piaf;Arttu Ratinen;2
+Tampere;Tampereen Teatteri;Anastasia;Pia Piltz;1
+Pori;Porin Teatteri;Idan pikajunan arvoitus/Murder on the Orient Express;Janne Turkki;8
+Tampere;Tampereen Teatteri;Anastasia;Elina Rintala;3
+Tampere;Tampereen Teatteri;Anastasia;Arttu Ratinen;none
+Helsinki;KOM-teatteri;Nukkekoti/A doll's house;Aleksi Holkko;30
+Tampere;Tampereen Teatteri;Klaani;Eeva Hakulinen;8
+Pori;Porin Teatteri;Idan pikajunan arvoitus/Murder on the Orient Express;Maria Pere;none
+Tampere;Tampereen Teatteri;Klaani;Tommi Raitolehto;2
+Tampere;Tampereen Tyovaen Teatteri;Saituri/Miser;Auvo Vihro;23
+Helsinki;KOM-teatteri;Nukkekoti/A doll's house;Vilma Melasniemi;43
+Tampere;Tampereen Tyovaen Teatteri;Evita;Maija Rissanen;2
+Tampere;Tampereen Tyovaen Teatteri;Evita;Lari Halme;3
