@@ -18,8 +18,6 @@
  *
  * Program author:
  * Name: Maral Nourimand
- * Student number: 151749113
- * UserID: txmano
  * E-Mail: maral.nourimand@tuni.fi
  *
  * Notes about the program and it's implementation (if any):
