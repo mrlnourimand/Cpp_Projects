@@ -1,0 +1,40 @@
+Yatzy_gui
+
+ * Program author
+ * Name: Maral Nourimand
+ * E-Mail: maral.nourimand@tuni.fi
+
+ Desc:
+ The project aims at implementation a graphical user interface for the
+ given yatzy game. Yatzy game has five dices that are thrown by the players
+ in desired order. At start, each player has three turns to roll up dices,
+ but it is not mandatory to use them all. Moreover, it is not required to use
+ the turns alternately, but a player can, for example, take all their turns
+ one after the other (without giving turn to other players between one’s rolls).
+ 
+ A player can lock part of the dices such that only unlocked dices will be
+ rolled in the next roll. After all turns of all players have been used or
+ after dropping out the game, the program tells who was the winner or between
+ which players the result is tie. Modules functions and gameengine were
+ already implemented, only a things were modified (listed in the following).
+ Here, only the grapgical user interface is added to the game.
+
+Notes about the program and its implementation:
+ * I have modified a few changes in the gameengine module:
+ 1. a vector of bool added to Player struct to store the locked status of each dice
+ 2. Method give_turn() is not void anymore, instead it returns true/false. If there are no more players to change the turn for, it returns false.
+ 3. Return value (string) added for report_winner() Method to get the message of the winner directly.
+ 4. Five methods were added to the gameengine module (getId(), getRollsLeft(), getLatestpoints(), gameReset(), toggleLock(int diceIndex))
+ * I got some help from OpenAI(ChatGPT 3.5) to implement the method diceButtonClicked().
+
+User Interface Implementation:
+1.	Game will start when the user click on Reset button. Roll Button and Change Turn button are disabled until the user starts the game with Reset/Start Button.  
+2.	The user can give the number of players for each round through a lineEdit. If no amount is entered by user, the default number of players is 2. 
+3.	As the game starts, the timer begins counting. It continues until a winner(s) recognized. When the game ends and the winner is shown, the elapsed time of this game round will be shown on the Status TextBrowser.
+4.	I chose 5 buttons to implement the dice pictures and show the result of dice rolling; because the user can easily lock any dice just by click on the dice (the button would be the signal sender in order to transmit the lock signal.). If any dice is locked (the button is clicked) it won’t be thrown with the other dices in Roll action and remains the previous number. 
+5.	Game status such as whose turn is it now and how many turns does the current player has left is shown in two Labels and get updated according to the game. 
+6.	During the game if Roll button is clicked but no more tries left for the player, an error message is shown on the TextBrowser of Status.
+7.	During the game if the Change Turn button is clicked but there are  no other players left to play, an error message will be shown on the TextBrowser of Status.
+8.	When the game ends and the winner(s) is announced in Status TextBrowser, the color of the UI turns into green. By starting a new round (click the Reset button) the original color is back to the UI.
+
+
